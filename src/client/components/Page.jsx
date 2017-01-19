@@ -1,3 +1,4 @@
+import Button from './Button';
 import React, {Component} from 'react';
 import Radium, {StyleRoot} from 'radium';
 
@@ -63,6 +64,7 @@ export default class Page extends Component {
         style={{
           color: 'red'
       }}>Hello World.</div>
+      <Button />
       {Page.getResetStyles()}
     </StyleRoot>;
   }
