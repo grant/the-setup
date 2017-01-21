@@ -12,8 +12,9 @@ export default class Button extends Component {
 
   render() {
     return <div style={{
-      color: 'blue'
+      color: 'green'
     }}>
+      Green w/ button:&nbsp;
       <button>button</button>
     </div>;
   }
