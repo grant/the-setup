@@ -16,3 +16,7 @@ npm start
 ```sh
 npm run open
 ```
+
+## Philosophy
+- Most parts of a UI should be compartmentalized:
+  - Just like npm modules, React Components (and more generically, JSX) can also be split into their own packages

@@ -14,7 +14,7 @@ export default class Button extends Component {
     return <div style={{
       color: 'green'
     }}>
-      Green w/ button:&nbsp;
+      Green Button Component:&nbsp;
       <button>button</button>
     </div>;
   }

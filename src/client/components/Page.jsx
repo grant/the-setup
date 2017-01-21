@@ -65,7 +65,7 @@ export default class Page extends Component {
         style={{
           color: 'red',
           margin: '10px',
-      }}>Hello World.</div>
+      }}>Hello Styled World.</div>
       <Button />
       <MyComponent />
       {Page.getResetStyles()}
