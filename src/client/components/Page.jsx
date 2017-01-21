@@ -67,7 +67,11 @@ export default class Page extends Component {
           margin: '10px',
       }}>Hello Styled World.</div>
       <Button />
-      <MyComponent />
+      <hr />
+      Exteral component: <MyComponent />
+      <hr />
+      Static asset:<br />
+      <img src="/static/grant.jpeg" />
       {Page.getResetStyles()}
     </StyleRoot>;
   }
