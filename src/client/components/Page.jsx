@@ -1,6 +1,7 @@
 import Button from './Button';
 import React, {Component} from 'react';
 import Radium, {StyleRoot} from 'radium';
+import MyComponent from 'radium-component';
 
 /**
  * The root page for the site.
@@ -62,9 +63,11 @@ export default class Page extends Component {
       <div
         className={'Page'}
         style={{
-          color: 'red'
+          color: 'red',
+          margin: '10px',
       }}>Hello World.</div>
       <Button />
+      <MyComponent />
       {Page.getResetStyles()}
     </StyleRoot>;
   }
